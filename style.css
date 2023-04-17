@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+:root{
+--Softorange: hsl(35, 77%, 62%);
+--Softred: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayishblue: hsl(233, 8%, 79%);
+--Darkgrayishblue: hsl(236, 13%, 42%);
+--Verydarkblue: hsl(240, 100%, 5%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Off-white);
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0 10px;
+    
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.nav{
+    align-items: center;
+    margin: 10px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: var(--Darkgrayishblue);
+}
+
+a:hover{
+    color: var(--Softred);
+}
+.outer{
+    display: flex;
+    /* margin: 30px; */
+}
+
+.middle{
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.web3{
+    width: 100%;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.left{
+    color: var(--Verydarkblue);
+    font-weight: 800;
+    font-size: 3.5em;
+    /* width: 50%; */
+    padding: 10px;
+    line-height: 45px;
+}
+
+.right{
+    padding: 10px;
+    color: var(--Darkgrayishblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.btn{
+    margin-top: auto;
+    width: 50%;
+    height: 25%;
+    font-size: large;
+    border: 0;
+    color: var(--Off-white);
+    background-color: var(--Softred);
+    letter-spacing: 2px;
+}
+
+.btn:hover{
+    background-color: var(--Verydarkblue);
+    cursor: pointer;
+}
+
+.side{
+    background-color: var(--Verydarkblue);
+    color: var(--Off-white);
+    width: 40%;
+    margin: 30px;
+    align-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+h1{
+    color: var(--Softorange);
+    font-size: 3em;
+}
+
+p{
+    font-size: 20px;
+}
+
+.para{
+    color: var(--Grayishblue); 
+}
+
+h2:hover{
+    color: var(--Softorange);
+    cursor: pointer;
+}
+
+.scontainer{
+    display: flex;
+    margin: 30px;
+
+}
+
+.con{
+    display: flex;
+    overflow: hidden;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.conImg{
+    height:70%;
+}
+
+.he1{
+    color: var(--Grayishblue);
+}
+
+.font{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
